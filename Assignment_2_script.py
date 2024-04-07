@@ -23,11 +23,11 @@ N = (7758*area*h*poro*(1-sw))/boi
 # They needed to be converted to numbers for them
 # to be usable in calculation of STOIIP.
 # The conversion is done with Function float
-poro = float(poro)
-area = float(area)
-h = float(h)
-sw = float(sw)
-boi = float(boi)
+poro = float(input("what is the reservoir porosity?"))
+area = float(input("what is the acreage of the reservoir?"))
+h = float(input("what is the thickness of the reservoir?"))
+sw = float(input("what is the water saturation of the reservoir?"))
+boi = float(input("what is the formation volume factor of the reservoir?"))
 
 
 # Displaying the output
